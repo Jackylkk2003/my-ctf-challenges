@@ -1,6 +1,6 @@
 # My CTF Challenges
 
-This repository contains a collection of Capture The Flag (CTF) challenges that I have created. Each challenge is organized into its own directory with relevant files and instructions.
+This repository contains a collection of Capture The Flag (CTF) challenges that I have created. Each challenge is organized into its own directory with relevant files.
 
 Some files may be redacted/modified due to various reasons (such as writeups for ongoing challenges).
 
