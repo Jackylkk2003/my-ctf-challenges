@@ -1,4 +1,4 @@
-# Trustworthy Person
+# Revenge of Trustworthy Person
 
 ## Summary
 * **Author:** Jackylkk2003
