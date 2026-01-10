@@ -1,0 +1,1 @@
+The writeup for this challenge (original version in CUHK CTF 2024) can be found [here](https://hackmd.io/@Jackylkk2003/Bkkboq6ogl).

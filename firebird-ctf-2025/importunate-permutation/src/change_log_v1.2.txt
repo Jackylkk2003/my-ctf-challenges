@@ -1,0 +1,19 @@
+=== Version 1.2 Changes ===
+Implemented whole service using Python because I like big ints
+Removed the restriction that the private keys are at most 10000000 by removing the modulo
+Increased the range of the random number generator. It is now unbounded!
+Optimized the service, now it runs much faster :>
+Changed the random number generator to a cryptographically secure one
+Uploaded the previously missing flag file :P
+This system is now given a good name: Importunate Permutation Service!!!
+
+=== Version 1.1 Changes ===
+Added flag encryption to the service using Python
+Fixed several bugs in the service
+Removed some debug messages
+Increased the array size to 100
+Added change log to the output :D
+
+=== Version 1.0 Changes ===
+Finished the first part of the service using C
+Currently the array size is 5, for testing purposes

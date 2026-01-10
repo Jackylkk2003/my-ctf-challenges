@@ -1,0 +1,10 @@
+=== Version 1.1 Changes ===
+Added flag encryption to the service using Python
+Fixed several bugs in the service
+Removed some debug messages
+Increased the array size to 100
+Added change log to the output :D
+
+=== Version 1.0 Changes ===
+Finished the first part of the service using C
+Currently the array size is 5, for testing purposes

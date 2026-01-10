@@ -1,0 +1,4 @@
+1. Patched normalize method in Squiggle class
+2. New flag format: flag{\w+}
+3. Added time tracking message UwU
+4. Added changelog.txt

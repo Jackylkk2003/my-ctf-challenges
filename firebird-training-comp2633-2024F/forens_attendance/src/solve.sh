@@ -1,0 +1,1 @@
+tshark -r 10b_attendance.pcapng -T fields -e ip.dst -Y ip.src==10.0.2.15 > ip.txt
