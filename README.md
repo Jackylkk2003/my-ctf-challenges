@@ -20,3 +20,8 @@ The challenges span various categories including:
 - forens (forensics)
 - rev (reverse engineering)
 - misc (miscellaneous)
+
+## Writeups
+The writeups/solutions of these challenges are available in the `src/` directory of the respective challenges.
+
+If you are looking for my writeups for the CTFs that I have participated, you can find them [here](https://hackmd.io/@Jackylkk2003).
