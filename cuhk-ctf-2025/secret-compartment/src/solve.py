@@ -1,6 +1,9 @@
 from pwn import *
 
-with remote("...", 3000) as io:  # Change accordingly
+HOST = "localhost"
+PORT = 3000
+
+with remote(HOST, PORT) as io:
     io.recvuntil(b"I have a compartment available for renting at ")
     addr = int(io.recvuntil(b",", drop=True), 16)
     io.recvuntil(b"just HKD ")

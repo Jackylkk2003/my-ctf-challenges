@@ -7,7 +7,7 @@
 ## Description
 Tell me your favourite signature!
 
-`nc ...`
+`nc HOST PORT`
 
 ---
 

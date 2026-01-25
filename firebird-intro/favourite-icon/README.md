@@ -10,7 +10,7 @@ Tell me your favourite icon!
 
 ---
 
-[http://...](http://...)
+[http://HOST:PORT](http://localhost)
 
 ## Flag
 <details>

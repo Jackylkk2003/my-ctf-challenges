@@ -10,7 +10,7 @@ Now I am extra trustworthy!!!
 
 ---
 
-`nc ...`
+`nc HOST PORT`
 
 [File1](./files/chal.py)
 

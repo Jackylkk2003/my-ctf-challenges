@@ -8,7 +8,7 @@
 
 You have seen ECB, CBC, CTR and other modes. Can you crack AES-UWU?
 
-`nc ...`
+`nc HOST PORT`
 
 ---
 

@@ -1,7 +1,10 @@
 from Crypto.Util.number import long_to_bytes
 from pwn import *
 
-with remote("...", 3000) as io: # Change to the appropriate host and port
+HOST = "localhost"
+PORT = 3000
+
+with remote(HOST, PORT) as io:
     io.recvuntil(b"n: ")
     n = int(io.recvline().strip())
     io.recvuntil(b"c: ")

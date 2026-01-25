@@ -10,7 +10,7 @@ Tell me your favourite message!
 
 ---
 
-`nc ...`
+`nc HOST PORT`
 
 [File1](./files/favourite-message.py)
 

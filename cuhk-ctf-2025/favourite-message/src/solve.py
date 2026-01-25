@@ -1,7 +1,10 @@
 from pwn import *
 from Crypto.Cipher import AES
 
-with remote("...", 3000) as io:  # Change to the appropriate host and port
+HOST = "localhost"
+PORT = 3000
+
+with remote(HOST, PORT) as io:
     io.sendlineafter(b"Tell me your favourite message: ", b"0" * 16 + b"{flag}")
     io.recvuntil(b"\nUwU ")
     c = bytes.fromhex(io.recvline().strip().decode())

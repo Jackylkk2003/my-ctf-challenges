@@ -37,8 +37,11 @@ Generator = Point(
     0x483ADA7726A3C4655DA4FBFC0E1108A8FD17B448A68554199C47D08FFB10D4B8,
 )
 
+HOST = "localhost"
+PORT = 3000
+
 # context.log_level = 'debug'
-with remote('...', 3000) as io:
+with remote(HOST, PORT) as io:
     information = []
     io.recvuntil(b"Q: ")
     

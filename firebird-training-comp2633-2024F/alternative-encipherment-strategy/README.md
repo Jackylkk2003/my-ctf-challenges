@@ -9,7 +9,7 @@
 
 When AES meets another AES.
 
-`nc ...`
+`nc HOST PORT`
 
 ---
 

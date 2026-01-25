@@ -1,7 +1,10 @@
 from pwn import *
 
+HOST = "localhost"
+PORT = 3000
+
 context.log_level = "debug"
-p = remote("...", 3000)
+p = remote(HOST, PORT)
 
 p.sendline(b"00" * 100)
 p.recvuntil(b"flag_enc = ")

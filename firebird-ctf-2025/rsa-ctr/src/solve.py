@@ -96,8 +96,10 @@ def attack(N, e, c1, c2, f1, f2):
     g = -fast_polynomial_gcd(g1, g2).monic()
     return int(g[0])
 
+HOST = "localhost"
+PORT = 3000
 
-with remote("...", 3000) as io:
+with remote(HOST, PORT) as io:
     io.sendline(b"1\n1")
     io.recvuntil(b"n = ")
     n = int(io.recvline().strip().decode())

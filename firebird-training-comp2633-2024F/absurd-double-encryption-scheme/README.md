@@ -8,7 +8,7 @@
 
 When DES meets AES.
 
-`nc ...`
+`nc HOST PORT`
 
 ---
 

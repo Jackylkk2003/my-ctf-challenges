@@ -16,9 +16,11 @@ def PoW_solve(target):
         if h == target:
             return ch
 
+HOST = "localhost"
+PORT = 3000
 
 # context.log_level = "DEBUG"
-with remote("...", 3000) as io:
+with remote(HOST, PORT) as io:
     io.recvuntil(b"h = ")
     target = io.recvline().strip().decode()
     io.sendline(PoW_solve(target))

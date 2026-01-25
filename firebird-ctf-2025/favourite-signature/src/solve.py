@@ -2,8 +2,11 @@ import hashlib
 from pwn import *
 from chall import *
 
+HOST = "localhost"
+PORT = 3000
+
 # context.log_level = "DEBUG"
-with remote("...", 3000) as io:
+with remote(HOST, PORT) as io:
     io.recvuntil(b"RNG with a=")
     a = int(io.recvline().strip().decode())
     io.recvuntil(b"Signature = ")

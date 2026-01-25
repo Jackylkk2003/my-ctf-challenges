@@ -14,7 +14,7 @@ Well, you can't find it anyway, so I guess it doesn't matter.
 
 ---
 
-`nc ...`
+`nc HOST PORT`
 
 [File1](./files/Dockerfile)
 

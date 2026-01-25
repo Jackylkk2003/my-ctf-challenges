@@ -10,7 +10,7 @@ I have again protected my [secret base](https://www.youtube.com/watch?v=ztF1ru7L
 
 ---
 
-`nc ...`
+`nc HOST PORT`
 
 [File1](./files/secret-base-2.py)
 

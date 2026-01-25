@@ -7,7 +7,7 @@
 ## Description
 Who says mode of operations only works for symmetric block ciphers?
 
-`nc ...`
+`nc HOST PORT`
 
 ---
 

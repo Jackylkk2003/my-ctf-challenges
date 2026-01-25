@@ -5,8 +5,10 @@ from Crypto.Util.Padding import pad
 from tqdm import tqdm
 import itertools
 
+HOST = "localhost"
+PORT = 3000
 context.log_level = "debug"
-p = remote("...", 3000)
+p = remote(HOST, PORT)
 
 p.sendline(b"2")
 p.sendline(b"3")

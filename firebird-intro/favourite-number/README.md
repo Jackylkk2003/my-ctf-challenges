@@ -8,7 +8,7 @@
 
 Tell me your favourite number!
 
-`nc ...`
+`nc HOST PORT`
 
 ---
 

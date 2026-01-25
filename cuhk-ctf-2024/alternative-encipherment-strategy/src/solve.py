@@ -1,8 +1,11 @@
 from pwn import *
 from Crypto.Util.Padding import pad
 
+HOST = "localhost"
+PORT = 3000
+
 context.log_level = "DEBUG"
-with remote("...", 3000) as io:
+with remote(HOST, PORT) as io:
     io.recvuntil(b"iv1: ")
     iv1 = bytes.fromhex(io.recvline().strip().decode())
     io.recvuntil(b"iv2: ")

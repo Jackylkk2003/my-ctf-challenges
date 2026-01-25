@@ -6,7 +6,7 @@
 
 ## Description
 
-crypto: `nc ...`
+crypto: `nc HOST PORT`
 
 ---
 
