@@ -1,0 +1,26 @@
+# Alternative Encipherment Strategy
+
+## Summary
+* **Author**: Jackylkk2003
+* **Category**: crypto
+* **Note**: Challenge reused from CUHK CTF 2024
+
+## Description
+
+When AES meets another AES.
+
+`nc HOST PORT`
+
+---
+
+[aes](./files/aes.py)
+
+## Flag
+<details>
+    <summary>Spoiler warning</summary>
+
+```
+[REDACTED]
+```
+
+</details>

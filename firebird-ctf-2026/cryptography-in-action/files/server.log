@@ -1,0 +1,294 @@
+[INFO] 2026/01/23 14:44:11 ========================================
+[INFO] 2026/01/23 14:44:11   My Web Server with HTTPS!!!
+[INFO] 2026/01/23 14:44:11 ========================================
+[INFO] 2026/01/23 14:44:11 Server starting on https://localhost:443
+[INFO] 2026/01/23 14:44:11 HTTP Version: HTTP/1.1
+[INFO] 2026/01/23 14:44:11 ----------------------------------------
+[INFO] 2026/01/23 14:44:11 Available endpoints:
+[INFO] 2026/01/23 14:44:11   GET  /           - Main page with images
+[INFO] 2026/01/23 14:44:11   GET  /images/... - Static image files
+[INFO] 2026/01/23 14:44:11   GET  /download?file=misc/flag.zip - Download flag
+[INFO] 2026/01/23 14:44:11 ----------------------------------------
+[INFO] 2026/01/23 14:44:11 Press Ctrl+C to stop the server
+[INFO] 2026/01/23 14:44:11 ========================================
+[HTTP] Server started on https://localhost:443
+[WARNING] 2026/01/23 14:44:22 http: TLS handshake error from 192.168.0.124:56918: remote error: tls: bad certificate
+[HTTP] >>> INCOMING REQUEST >>>
+[HTTP]   Timestamp: 2026-01-23 14:44:39.296 HKT
+[HTTP]   Remote Address: 192.168.0.124:34708
+[HTTP]   Method: GET
+[HTTP]   URL: /
+[HTTP]   Protocol: HTTP/1.1
+[HTTP]   Host: 192.168.0.114
+[HTTP]   Content-Length: 0
+[HTTP]   TLS Version: TLS 1.3
+[HTTP]   TLS Cipher Suite: TLS_AES_128_GCM_SHA256
+[HTTP]   TLS Server Traffic Secret 0: 349558dfef003e016a74706061306b4c7e4974b18dfc1f62c8ece0cc78d6ed44
+[HTTP]   TLS Server Name: 
+[HTTP]   Request Headers:
+[HTTP]     Accept-Encoding: gzip, deflate, br, zstd
+[HTTP]     Upgrade-Insecure-Requests: 1
+[HTTP]     Sec-Fetch-Dest: document
+[HTTP]     Pragma: no-cache
+[HTTP]     Cache-Control: no-cache
+[HTTP]     Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+[HTTP]     Accept-Language: en-US,en;q=0.5
+[HTTP]     Connection: keep-alive
+[HTTP]     Sec-Fetch-Mode: navigate
+[HTTP]     Sec-Fetch-Site: none
+[HTTP]     Sec-Fetch-User: ?1
+[HTTP]     Priority: u=0, i
+[HTTP]     User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+[HTTP] <<< RESPONSE <<<
+[HTTP]   Status Code: 200 OK
+[HTTP]   Response Size: 7483 bytes
+[HTTP]   Duration: 2.311583ms
+[HTTP]   Response Headers:
+[HTTP]     Content-Type: text/html; charset=utf-8
+[HTTP] -------------------------------------------
+[HTTP] >>> INCOMING REQUEST >>>
+[HTTP]   Timestamp: 2026-01-23 14:44:39.497 HKT
+[HTTP]   Remote Address: 192.168.0.124:34708
+[HTTP]   Method: GET
+[HTTP]   URL: /images/firebird/blobcat.png
+[HTTP]   Protocol: HTTP/1.1
+[HTTP]   Host: 192.168.0.114
+[HTTP]   Content-Length: 0
+[HTTP]   TLS Version: TLS 1.3
+[HTTP]   TLS Cipher Suite: TLS_AES_128_GCM_SHA256
+[HTTP]   TLS Server Traffic Secret 0: 349558dfef003e016a74706061306b4c7e4974b18dfc1f62c8ece0cc78d6ed44
+[HTTP]   TLS Server Name: 
+[HTTP]   Request Headers:
+[HTTP]     Accept-Language: en-US,en;q=0.5
+[HTTP]     Accept-Encoding: gzip, deflate, br, zstd
+[HTTP]     Connection: keep-alive
+[HTTP]     Sec-Fetch-Site: same-origin
+[HTTP]     Priority: u=4, i
+[HTTP]     User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+[HTTP]     Referer: https://192.168.0.114/
+[HTTP]     Sec-Fetch-Dest: image
+[HTTP]     Sec-Fetch-Mode: no-cors
+[HTTP]     Pragma: no-cache
+[HTTP]     Cache-Control: no-cache
+[HTTP]     Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+[HTTP] <<< RESPONSE <<<
+[HTTP]   Status Code: 200 OK
+[HTTP]   Response Size: 13930 bytes
+[HTTP]   Duration: 15.215458ms
+[HTTP]   Response Headers:
+[HTTP]     Accept-Ranges: bytes
+[HTTP]     Content-Length: 13930
+[HTTP]     Last-Modified: Thu, 22 Jan 2026 18:39:33 GMT
+[HTTP]     Content-Type: image/png
+[HTTP] -------------------------------------------
+[HTTP] >>> INCOMING REQUEST >>>
+[HTTP]   Timestamp: 2026-01-23 14:44:39.522 HKT
+[HTTP]   Remote Address: 192.168.0.124:34710
+[HTTP]   Method: GET
+[HTTP]   URL: /images/firebird/firebird-chan.png
+[HTTP]   Protocol: HTTP/1.1
+[HTTP]   Host: 192.168.0.114
+[HTTP]   Content-Length: 0
+[HTTP]   TLS Version: TLS 1.3
+[HTTP]   TLS Cipher Suite: TLS_AES_128_GCM_SHA256
+[HTTP]   TLS Server Traffic Secret 0: d797cdcf4602d73a11b7705ac9bcfc1049e735505982220df08044d37f2772ed
+[HTTP]   TLS Server Name: 
+[HTTP]   Request Headers:
+[HTTP]     Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+[HTTP]     Accept-Language: en-US,en;q=0.5
+[HTTP]     Accept-Encoding: gzip, deflate, br, zstd
+[HTTP]     Sec-Fetch-Mode: no-cors
+[HTTP]     Sec-Fetch-Site: same-origin
+[HTTP]     Priority: u=4, i
+[HTTP]     User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+[HTTP]     Connection: keep-alive
+[HTTP]     Referer: https://192.168.0.114/
+[HTTP]     Sec-Fetch-Dest: image
+[HTTP]     Pragma: no-cache
+[HTTP]     Cache-Control: no-cache
+[HTTP] <<< RESPONSE <<<
+[HTTP]   Status Code: 200 OK
+[HTTP]   Response Size: 115763 bytes
+[HTTP]   Duration: 829.25µs
+[HTTP]   Response Headers:
+[HTTP]     Accept-Ranges: bytes
+[HTTP]     Content-Length: 115763
+[HTTP]     Last-Modified: Thu, 22 Jan 2026 18:35:18 GMT
+[HTTP]     Content-Type: image/png
+[HTTP] -------------------------------------------
+[HTTP] >>> INCOMING REQUEST >>>
+[HTTP]   Timestamp: 2026-01-23 14:44:39.532 HKT
+[HTTP]   Remote Address: 192.168.0.124:34726
+[HTTP]   Method: GET
+[HTTP]   URL: /images/firebird/firebird-logo.png
+[HTTP]   Protocol: HTTP/1.1
+[HTTP]   Host: 192.168.0.114
+[HTTP]   Content-Length: 0
+[HTTP]   TLS Version: TLS 1.3
+[HTTP]   TLS Cipher Suite: TLS_AES_128_GCM_SHA256
+[HTTP]   TLS Server Traffic Secret 0: df6fbb903bba83e0ec49de39d649f2beb6a286ff09a15289cf0345fc9fb3ca39
+[HTTP]   TLS Server Name: 
+[HTTP]   Request Headers:
+[HTTP]     Cache-Control: no-cache
+[HTTP]     User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+[HTTP]     Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+[HTTP]     Connection: keep-alive
+[HTTP]     Referer: https://192.168.0.114/
+[HTTP]     Priority: u=4, i
+[HTTP]     Accept-Language: en-US,en;q=0.5
+[HTTP]     Accept-Encoding: gzip, deflate, br, zstd
+[HTTP]     Sec-Fetch-Dest: image
+[HTTP]     Sec-Fetch-Mode: no-cors
+[HTTP]     Sec-Fetch-Site: same-origin
+[HTTP]     Pragma: no-cache
+[HTTP] <<< RESPONSE <<<
+[HTTP]   Status Code: 200 OK
+[HTTP]   Response Size: 104969 bytes
+[HTTP]   Duration: 1.116666ms
+[HTTP]   Response Headers:
+[HTTP]     Last-Modified: Thu, 22 Jan 2026 18:37:53 GMT
+[HTTP]     Content-Type: image/png
+[HTTP]     Accept-Ranges: bytes
+[HTTP]     Content-Length: 104969
+[HTTP] -------------------------------------------
+[HTTP] >>> INCOMING REQUEST >>>
+[HTTP]   Timestamp: 2026-01-23 14:44:39.595 HKT
+[HTTP]   Remote Address: 192.168.0.124:34710
+[HTTP]   Method: GET
+[HTTP]   URL: /favicon.ico
+[HTTP]   Protocol: HTTP/1.1
+[HTTP]   Host: 192.168.0.114
+[HTTP]   Content-Length: 0
+[HTTP]   TLS Version: TLS 1.3
+[HTTP]   TLS Cipher Suite: TLS_AES_128_GCM_SHA256
+[HTTP]   TLS Server Traffic Secret 0: d797cdcf4602d73a11b7705ac9bcfc1049e735505982220df08044d37f2772ed
+[HTTP]   TLS Server Name: 
+[HTTP]   Request Headers:
+[HTTP]     Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+[HTTP]     Accept-Encoding: gzip, deflate, br, zstd
+[HTTP]     Connection: keep-alive
+[HTTP]     Sec-Fetch-Dest: image
+[HTTP]     Sec-Fetch-Mode: no-cors
+[HTTP]     Sec-Fetch-Site: same-origin
+[HTTP]     Priority: u=6
+[HTTP]     User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+[HTTP]     Accept-Language: en-US,en;q=0.5
+[HTTP]     Referer: https://192.168.0.114/
+[HTTP]     Pragma: no-cache
+[HTTP]     Cache-Control: no-cache
+[HTTP] <<< RESPONSE <<<
+[HTTP]   Status Code: 404 Not Found
+[HTTP]   Response Size: 19 bytes
+[HTTP]   Duration: 626.958µs
+[HTTP]   Response Headers:
+[HTTP]     X-Content-Type-Options: nosniff
+[HTTP]     Content-Type: text/plain; charset=utf-8
+[HTTP] -------------------------------------------
+[HTTP] >>> INCOMING REQUEST >>>
+[HTTP]   Timestamp: 2026-01-23 14:44:42.282 HKT
+[HTTP]   Remote Address: 192.168.0.124:34710
+[HTTP]   Method: GET
+[HTTP]   URL: /images/flag/flag.png
+[HTTP]   Protocol: HTTP/1.1
+[HTTP]   Host: 192.168.0.114
+[HTTP]   Content-Length: 0
+[HTTP]   TLS Version: TLS 1.3
+[HTTP]   TLS Cipher Suite: TLS_AES_128_GCM_SHA256
+[HTTP]   TLS Server Traffic Secret 0: d797cdcf4602d73a11b7705ac9bcfc1049e735505982220df08044d37f2772ed
+[HTTP]   TLS Server Name: 
+[HTTP]   Request Headers:
+[HTTP]     Pragma: no-cache
+[HTTP]     Cache-Control: no-cache
+[HTTP]     User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+[HTTP]     Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+[HTTP]     Accept-Language: en-US,en;q=0.5
+[HTTP]     Accept-Encoding: gzip, deflate, br, zstd
+[HTTP]     Connection: keep-alive
+[HTTP]     Sec-Fetch-Mode: no-cors
+[HTTP]     Sec-Fetch-Site: same-origin
+[HTTP]     Referer: https://192.168.0.114/
+[HTTP]     Sec-Fetch-Dest: image
+[HTTP]     Priority: u=4, i
+[HTTP] >>> INCOMING REQUEST >>>
+[HTTP]   Timestamp: 2026-01-23 14:44:42.283 HKT
+[HTTP]   Remote Address: 192.168.0.124:34726
+[HTTP]   Method: GET
+[HTTP]   URL: /images/secret/password.png
+[HTTP]   Protocol: HTTP/1.1
+[HTTP]   Host: 192.168.0.114
+[HTTP]   Content-Length: 0
+[HTTP]   TLS Version: TLS 1.3
+[HTTP]   TLS Cipher Suite: TLS_AES_128_GCM_SHA256
+[HTTP]   TLS Server Traffic Secret 0: df6fbb903bba83e0ec49de39d649f2beb6a286ff09a15289cf0345fc9fb3ca39
+[HTTP]   TLS Server Name: 
+[HTTP]   Request Headers:
+[HTTP]     User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+[HTTP]     Accept-Language: en-US,en;q=0.5
+[HTTP]     Accept-Encoding: gzip, deflate, br, zstd
+[HTTP]     Connection: keep-alive
+[HTTP]     Referer: https://192.168.0.114/
+[HTTP]     Sec-Fetch-Mode: no-cors
+[HTTP]     Priority: u=4, i
+[HTTP]     Accept: image/avif,image/webp,image/png,image/svg+xml,image/*;q=0.8,*/*;q=0.5
+[HTTP]     Sec-Fetch-Dest: image
+[HTTP]     Sec-Fetch-Site: same-origin
+[HTTP]     Pragma: no-cache
+[HTTP]     Cache-Control: no-cache
+[HTTP] <<< RESPONSE <<<
+[HTTP]   Status Code: 200 OK
+[HTTP]   Response Size: 53836 bytes
+[HTTP]   Duration: 3.106416ms
+[HTTP]   Response Headers:
+[HTTP]     Content-Length: 53836
+[HTTP]     Last-Modified: Thu, 22 Jan 2026 18:56:45 GMT
+[HTTP]     Content-Type: image/png
+[HTTP]     Accept-Ranges: bytes
+[HTTP] -------------------------------------------
+[HTTP] <<< RESPONSE <<<
+[HTTP]   Status Code: 200 OK
+[HTTP]   Response Size: 107651 bytes
+[HTTP]   Duration: 2.216291ms
+[HTTP]   Response Headers:
+[HTTP]     Last-Modified: Thu, 22 Jan 2026 18:42:53 GMT
+[HTTP]     Content-Type: image/png
+[HTTP]     Accept-Ranges: bytes
+[HTTP]     Content-Length: 107651
+[HTTP] -------------------------------------------
+[HTTP] >>> INCOMING REQUEST >>>
+[HTTP]   Timestamp: 2026-01-23 14:44:51.135 HKT
+[HTTP]   Remote Address: 192.168.0.124:34710
+[HTTP]   Method: GET
+[HTTP]   URL: /download?file=misc/flag.zip
+[HTTP]   Protocol: HTTP/1.1
+[HTTP]   Host: 192.168.0.114
+[HTTP]   Content-Length: 0
+[HTTP]   TLS Version: TLS 1.3
+[HTTP]   TLS Cipher Suite: TLS_AES_128_GCM_SHA256
+[HTTP]   TLS Server Traffic Secret 0: d797cdcf4602d73a11b7705ac9bcfc1049e735505982220df08044d37f2772ed
+[HTTP]   TLS Server Name: 
+[HTTP]   Request Headers:
+[HTTP]     User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+[HTTP]     Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+[HTTP]     Accept-Language: en-US,en;q=0.5
+[HTTP]     Referer: https://192.168.0.114/
+[HTTP]     Sec-Fetch-Site: same-origin
+[HTTP]     Sec-Fetch-Dest: document
+[HTTP]     Sec-Fetch-Mode: navigate
+[HTTP]     Sec-Fetch-User: ?1
+[HTTP]     Priority: u=0, i
+[HTTP]     Accept-Encoding: gzip, deflate, br, zstd
+[HTTP]     Upgrade-Insecure-Requests: 1
+[HTTP]     Pragma: no-cache
+[HTTP]     Connection: keep-alive
+[HTTP]     Cache-Control: no-cache
+[HTTP] <<< RESPONSE <<<
+[HTTP]   Status Code: 200 OK
+[HTTP]   Response Size: 71867 bytes
+[HTTP]   Duration: 1.427292ms
+[HTTP]   Response Headers:
+[HTTP]     Content-Disposition: attachment; filename="flag.zip"
+[HTTP]     Content-Type: application/octet-stream
+[HTTP]     Content-Length: 71867
+[HTTP] -------------------------------------------
+[INFO] 2026/01/23 14:50:15 Signal interrupt received, shutting down...
+[INFO] 2026/01/23 14:50:15 Server gracefully stopped
